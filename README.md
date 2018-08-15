@@ -1,0 +1,2 @@
+# MyDiary
+just another repository

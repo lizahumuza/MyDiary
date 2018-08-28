@@ -1,0 +1,89 @@
+<html>
+
+<head>
+        <title>entry</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Add A New Entry</h1>
+            </div>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="entry.html">Add New Entry</a>
+            </li>
+            <li>
+                <a href="entries.html">View All Entries</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="wrapper">
+        <div id="first-div">
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Entry</th>
+                    <th>View</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>8/23/2018</td>
+                    <td>My secret crush confession</td>
+                    <td>View</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+                <tr>
+                    <td>8/23/2018</td>
+                    <td>My summer holiday</td>
+                    <td>View</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+                <tr>
+                    <td>8/23/2018</td>
+                    <td>My fantasies</td>
+                    <td>View</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+                <tr>
+                    <td>8/23/2018</td>
+                    <td>wildest dreams</td>
+                    <td>View</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+            </table>
+        </div>
+        <div id="second-div">
+            <form class="form" action="action_page.php">
+                <div class="container">
+                    <legend>Add New Entry</legend>
+                    <label for="title">
+                        <b>Title</b>
+                    </label>
+                    <input type="text" placeholder="" name="title" required>
+                    <label for="entry">
+                        <b>whats on your mind today?</b>
+                    </label>
+                    <textarea name="entry"></textarea>
+                    <button type="submit">Save</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
